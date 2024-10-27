@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>home page</title>
+        <link rel="icon" href="../static/img/controller.png" />
+        <link rel="stylesheet" href="../static/style/main.css" >
+        <link rel="stylesheet" href="../static/style/home_page.css">
+        <!-- link for flask app -->
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style/main.css') }}"> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <div class="header_style">
+            <a href="../templates/homepage.html">
+                <img class="logo" src="../static/img/game-controller.png" />
+            </a>
+
+            <div class="header_links">
+                <a href="#">Home</a>
+                <a href="../templates/about.html">About</a>
+                <button>Sign in</button>
+            </div>
+        </div>
+
+        <!-- landing page -->
+        <div class="landing_page">
+            <div>
+                <div>
+                    <h2>Welcome to gaming site</h2>
+                    <h1>Hello, Guest</h1>
+                </div>
+                <div class="search_bar">
+                    <input placeholder="write your game ...">
+                    <button>Search</button>
+                </div>
+            </div>
+            <div>
+                <img class="image" src="https://t4.ftcdn.net/jpg/05/64/31/67/360_F_564316725_zE8llusnCk3Sfr9rdfKya6fV7BQbjfyV.jpg">
+            </div>
+        </div>
+
+        <!-- game section -->
+         <div class="game_section">
+            <span>Games</span>
+            <div class="gamesHeader">
+                <h1>Last Games</h1>
+
+                <button>View All</button>
+            </div>
+            <div class="games_cards">
+                <div class="card">
+                    <img class="card_image" src="https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blackops6/meta/BO6_LP-meta_image.jpg">
+                    <div class="card_info">
+                        <div class="card_name">
+                            <p>Action</p>
+                            <h3>Call of Duty</h3>
+                        </div>
+                        <a>
+                            <img class="logo_2" src="../static/img/download.png">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card_image" src="https://www.dexerto.com/cdn-image/wp-content/uploads/2024/03/04/GTA-RP-EXPLAINED.jpeg?width=1200&quality=60&format=auto">
+                    <div class="card_info">
+                        <div class="card_name">
+                            <p>Action</p>
+                            <h3>GTA 5</h3>
+                        </div>
+                        <a>
+                            <img class="logo_2" src="../static/img/download.png">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img class="card_image" src="https://i.ytimg.com/vi/W01L70IGBgE/maxresdefault.jpg">
+                    <div class="card_info">
+                        <div class="card_name">
+                            <p>Action</p>
+                            <h3>The last of us</h3>
+                        </div>
+                        <a>
+                            <img class="logo_2" src="../static/img/download.png">
+                        </a>
+                    </div>
+                </div>
+
+
+
+            </div>
+         </div>
+         <br><br><br>
+    </body>
+
+</html>

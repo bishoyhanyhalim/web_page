@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.logo{
+    width: 70px;
+}
+
+.header_style{
+    background-color: #0171f9;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+
+.header_links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.header_links a:hover {
+    color:black;
+    background-color: #2386fe;
+}
+
+.header_links button{
+    font-family: "Oswald", sans-serif;
+    background-color: #EE626B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+
+.header_links button:hover {
+    border-radius: 25px;
+    background-color: #f23542;
+    padding: 10px;
+}

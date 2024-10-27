@@ -1,0 +1,105 @@
+.landing_page{
+    color: blanchedalmond;
+    background-color: #0171f9;
+    border-radius: 0 0 40px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 30px;
+    padding-bottom: 90px;
+}
+
+.image {
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+}
+
+.search_bar input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 15px;
+}
+
+.search_bar button{
+    font-family: "Oswald", sans-serif;
+    background-color: #EE626B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-weight: bold;
+    position: absolute;
+    left: 170px;
+    height: 30px;
+}
+
+.search_bar button:hover {
+    background-color: #f23542;
+}
+
+.game_section {
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+
+.game_section span{
+    font-size: 20px;
+    color: #f23542;
+    text-transform: uppercase;
+}
+
+.gamesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.gamesHeader button{
+    font-family: "Oswald", sans-serif;
+    background-color: #EE626B;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.gamesHeader button:hover {
+    background-color: #f23542;
+}
+
+.games_cards{
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 330px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.card_image {
+    width: 330px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card_info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    align-items: center;
+}
+
+.logo_2{
+    width: 40px;
+}
